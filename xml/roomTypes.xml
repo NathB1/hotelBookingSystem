@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<roomTypes>
+    <roomType>
+        <id>test</id>
+        <description>this is the second description test</description>
+        <maxGuests>2</maxGuests>
+    </roomType>
+    <roomType>
+        <id>King</id>
+        <description>King Bed</description>
+        <maxGuests>2</maxGuests>
+    </roomType>
+    <roomType>
+        <id>Double</id>
+        <description>Double Bed</description>
+        <maxGuests>2</maxGuests>
+    </roomType>
+    <roomType>
+        <id>Twin</id>
+        <description>Twin Single Beds</description>
+        <maxGuests>2</maxGuests>
+    </roomType>
+    <roomType>
+        <id>Single</id>
+        <description>Single Bed</description>
+        <maxGuests>1</maxGuests>
+    </roomType>
+<roomType><id>123456</id><description>234567</description><maxGuests>234567</maxGuests></roomType></roomTypes>

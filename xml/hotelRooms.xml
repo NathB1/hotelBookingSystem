@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<hotelRooms>
+
+    
+    
+
+    
+    
+    <hotelRoom>
+        <number>305</number>
+        <roomType>test</roomType>
+        <description>this is a test</description>
+        <pricePerNight>132</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>204</number>
+        <roomType>Twin</roomType>
+        <description>A standard twin room</description>
+        <pricePerNight>195.00</pricePerNight>
+    </hotelRoom>
+    <hotelRoom>
+        <number>205</number>
+        <roomType>Twin</roomType>
+        <description>A standard twin room</description>
+        <pricePerNight>195.00</pricePerNight>
+    </hotelRoom>
+
+    <hotelRoom>
+        <number>301</number>
+        <roomType>King</roomType>
+        <description>Superior room with king-size bed.</description>
+        <pricePerNight>225.00</pricePerNight>
+    </hotelRoom>
+    
+    
+    
+</hotelRooms>

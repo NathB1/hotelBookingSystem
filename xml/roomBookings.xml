@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<bookings>
+    
+    <booking>
+        <number>101</number>
+        <name>Mr and Mrs Smith</name>
+        <checkin>
+            <day>15</day>
+            <month>11</month>
+            <year>2016</year>
+        </checkin>
+        <checkout>
+            <day>21</day>
+            <month>11</month>
+            <year>2016</year>
+        </checkout>
+    </booking>
+        
+    <booking>
+        <number>203</number>
+        <name>Alice, Bob, and family</name>
+        <checkin>
+            <day>12</day>
+            <month>11</month>
+            <year>2015</year>
+        </checkin>
+        <checkout>
+            <day>17</day>
+            <month>11</month>
+            <year>2016</year>
+        </checkout>
+    </booking>
+    
+    <booking>
+        <number>204</number>
+        <name>Alice, Bob, and family</name>
+        <checkin>
+            <day>12</day>
+            <month>11</month>
+            <year>2016</year>
+        </checkin>
+        <checkout>
+            <day>17</day>
+            <month>11</month>
+            <year>2016</year>
+        </checkout>
+    </booking>
+    
+    <booking>
+        <number>203</number>
+        <name>Carol and Dave</name>
+        <checkin>
+            <day>17</day>
+            <month>11</month>
+            <year>2016</year>
+        </checkin>
+        <checkout>
+            <day>21</day>
+            <month>11</month>
+            <year>2016</year>
+        </checkout>
+    </booking>
+    
+</bookings>

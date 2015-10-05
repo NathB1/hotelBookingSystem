@@ -1,0 +1,169 @@
+/*font for headings */
+
+@font-face {
+    font-family: 'UpperEastSide';
+    src: url('../Fonts/Hattori_Hanzo-webfont.eot');
+    src: url('../Fonts/Hattori_Hanzo-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../Fonts/Hattori_Hanzo-webfont.woff') format('woff'),
+    url('../Fonts/Hattori_Hanzo-webfont.ttf') format('truetype'),
+    url('../Fonts/Hattori_Hanzo-webfont.svg#UpperEastSideRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    /*font from http://www.fontsquirrel.com/fonts/Hattori-Hanzo */
+}
+
+/* General formatting for the page */
+
+body {
+    background-color: #C63D0F;
+    font-size: 10pt;
+    font-family: Verdana, sans-serif;
+    text-align: left;
+}
+
+/* Common formatting for main block elements */
+
+div, nav, header, footer {
+    padding: 10px;
+    margin: 5px;
+    background-color: #FDF3E7;
+}
+
+header, nav, footer, #main {
+    border: 1px solid black;
+}
+
+/* Layout of the top-level blocks */
+
+header {
+    width: 97%;
+    overflow: hidden;
+    background-image: url('../images/headerBackground.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+nav {
+    font-size: 12pt;
+    width: 17%;
+    float: left;
+}
+
+#main {
+    width: 77.5%;
+    float: left;
+}
+
+footer {
+    font-size: 8pt;
+    text-align: right;
+    width: 97%;
+    clear: both;
+}
+
+/* Headings */
+
+h1 {
+    font-family: UpperEastSide, Verdana, sans-serif;
+    font-size: 36pt;
+    margin: 0px;
+    float: left;
+}
+
+h2 {
+    font-family: UpperEastSide, Verdana, sans-serif;
+    font-size: 24pt;
+}
+
+h3 {
+    font-size: 12pt;
+}
+
+/* Navigation links */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding-left: 20px;
+    text-indent: -20px;
+    padding-top: 10px;
+}
+
+ul.frontpage {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+/* add rooms form */
+
+#searchingForRooms {
+    display: none;
+}
+
+/*staffRoomEdit Form*/
+#staffRoomEdit {
+
+}
+
+#staffRoomEdit p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#staffRoomEdit p label {
+    display: inline-block;
+    width: 100px;
+}
+
+#staffRoomEdit p input {
+    width: 150px;
+}
+
+#staffRoomEdit p input.short {
+    width: 50px;
+}
+
+/* Login/out boxes */
+
+#login {
+    float: right;
+    font-size: 8pt;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+#login input {
+    width: 100px;
+}
+
+#login input[type=submit], #logout input[type=submit] {
+    width: 60px;
+}
+
+#logout {
+    float: right;
+    font-size: 8pt;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+
+/**http://stackoverflow.com/questions/4944550/show-popup-if-the-mouse-is-hovered-over-an-element-for-a-period-of-time**/
+
+#someelem {
+    cursor: pointer;
+}
+
+.tooltip {
+    display: block;
+    position: absolute;
+    background-color: rgb(130, 150, 200);
+    padding: 5px;
+}

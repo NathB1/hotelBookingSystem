@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<hotelRoomsTest><hotelRoom><RoomNumber>222</RoomNumber><roomType>222</roomType><description>222</description><pricePerNight>222</pricePerNight></hotelRoom><hotelRoom><RoomNumber>333</RoomNumber><roomType>333</roomType><description>333</description><pricePerNight>333</pricePerNight></hotelRoom><hotelRoom><RoomNumber>111</RoomNumber><roomType>111</roomType><description>111</description><pricePerNight>111</pricePerNight></hotelRoom></hotelRoomsTest>

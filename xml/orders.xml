@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<bookings>
+
+<booking><number>202</number><name>test</name><checkin><day>01</day><month>01</month><year>2016</year></checkin><checkout><day>01</day><month>02</month><year>2016</year></checkout></booking><booking><number>202</number><name>test</name><checkin><day>01</day><month>01</month><year>2016</year></checkin><checkout><day>01</day><month>02</month><year>2016</year></checkout></booking><booking><number>202</number><name>sdfghjkl</name><checkin><day>01</day><month>01</month><year>2016</year></checkin><checkout><day>01</day><month>03</month><year>2016</year></checkout></booking></bookings>
